@@ -1,0 +1,728 @@
+@charset "utf-8";
+
+
+@media screen and (max-width: 1100px) {
+    .pCenter {
+        font-size: 18px;
+    }
+
+    .speechBubbleContainer {
+        top: -65px;
+        right: -30px;
+    }
+
+    .flexFunction {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .pCenter {
+        font-size: 15px;
+    }
+
+    .speech-bubble p {
+        font-size: 22px;
+    }
+
+    .Container {
+        width: 94%;
+    }
+
+    .flexBox {
+        width: 90%;
+    }
+
+    .flexFunction {
+        /* max-width: 780px; */
+    }
+
+    .function p {
+        /* font-size: 11px; */
+    }
+
+    .flexBoxFunction {
+        width: 50%;
+        margin: 50px 0 0 0;
+    }
+
+    .flex2 {
+        max-width: 780px;
+    }
+
+    .caseText h4 {
+        margin-bottom: 17px;
+    }
+
+    .caseText ul {
+        padding-right: 15px;
+    }
+
+    .caseText ul li {
+        font-size: 13px;
+    }
+
+    .speech-bubble2 {
+        padding: 3px 12px;
+        font-size: 12px;
+        width: 157px;
+    }
+
+    .priceItem {
+        max-width: 750px;
+    }
+
+    .priceLeft {
+        width: 250px;
+    }
+
+    .priceLeft p {
+        font-size: 12px;
+    }
+
+    p.priceDescription {
+        max-width: 750px;
+    }
+
+    .question {
+        max-width: 750px;
+    }
+
+    .question p {
+        font-size: 16px;
+    }
+    
+    .answer {
+        max-width: 750px;
+    }
+    
+    .answer p {
+        font-size: 16px;
+    }
+}
+
+@media ( max-width: 900px ) {
+    .flex2 {
+        max-width: 650px;
+        /* height: 230px; */
+        font-size: 30px;
+    }
+    .imageContainer {
+        width: 24em;
+    }
+    .Container {
+        height: auto;
+    }
+    .function {
+        width: 30%;
+    }
+    .attention {
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .headerPhrase {
+        font-size: 24px;
+    }
+
+    .pCenter {
+        font-size: 13px;
+    }
+
+    .speech-bubble {
+        width: 200px;
+        padding: 5px 18px;
+    }
+
+    .speech-bubble p {
+        font-size: 20px;
+    }
+
+    .sectionContainer h2 {
+        font-size: 32px;
+    }
+
+    .top2 p {
+        font-size: 18px;
+    }
+
+    .Container {
+        /* height: 400px; */
+        padding: 30px 10px;
+        /* margin: 20px auto; */
+    }
+
+    .customer {
+        align-items: center;
+    }
+
+    .customerImage {
+        min-width: 52px;
+        width: 52px;
+        height: 52px;
+    }
+
+    .customerImage img {
+        width: 52px;
+        height: 52px;
+    }
+
+    .customerP {
+        bottom: 1.5px;
+        font-size: 13px;
+    }
+
+    .text1 {
+        margin: 0;
+    }
+
+    .text2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin: 20px 0 16px;
+    }
+    .Image2 {
+        margin-top: 0;
+    }
+
+    .content {
+        width: 40%;
+        height: 170px;
+    }
+    .content img {
+        width: 80px;
+        height: 142px;
+    }
+
+    .background {
+        width: 110px;
+        padding: 8px 20px;
+    }
+
+    .flexFunction {
+        max-width: 680px;
+    }
+    .flexBoxFunction p {
+        max-width: 270px;
+        font-size: 14px;
+    }
+
+    .flex2 {
+        max-width: 660px;
+        /* height: 250px; */
+    }
+
+    .imageContainer {
+        /* max-width: 250px; */
+        height: 250px;
+    }
+
+    .caseText {
+        margin-top: 20px;
+        padding-left: 25px;
+    }
+
+    .caseText h4 {
+        font-size: 26px;
+        margin-bottom: 26px;
+    }
+
+    .caseText ul {
+        margin-left: 16px;
+    }
+
+    .caseText ul li {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .speechBubbleContainer {
+        top: -50px;
+    }
+
+    .speech-bubble2 {
+        font-size: 11px;
+        width: 150px;
+    }
+
+    .priceItem {
+        max-width: 650px;
+        height: 120px;
+    }
+    .priceLeft h4 {
+        font-size: 20px;
+    }
+
+
+    p.priceDescription {
+        max-width: 650px;
+    }
+
+    .question {
+        max-width: 650px;
+    }
+
+    .answer {
+        max-width: 650px;
+    }
+    .sectionContainer {
+        padding: 70px 40px;
+    }
+    .priceRight h4 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 770px) {
+    .priceRight h4 {
+        font-size: 38px;
+    }
+    .flex2 {
+        /* width: 400px; */
+        /* height: 120px;
+        height: 150px; */
+    }
+    .imageContainer {
+        width: 120px;
+        width: 150px;
+        height: 120px;
+        height: 150px;
+        flex-basis: unset;
+    }
+    .caseText h4 {
+        font-size: 22px;
+        margin-bottom: 14px;
+    }
+    .caseText ul li {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .priceRight h4 {
+        font-size: 38px;
+    }
+    .headerPhrase {
+        font-size: 17px;
+    }
+    .sectionContainer h2 {
+        font-size: 21px;
+    }
+    #support .flexFunction {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .text2 {
+        font-size: 21px;
+    }
+    .text3 {
+        /* font-size: 12px; */
+    }
+    .Container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Image {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+    }
+    .brand .Image {
+        margin-bottom: 0;
+    }
+    .bigImage {
+        width: 100%;
+        max-width: unset;
+    }
+    .textContainer {
+        width: 80%;
+    }
+    .Container {
+    }
+    .flexBoxFunction {
+        width: 100%;
+    }
+    .attention .flexFunction {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .flexBoxFunction {
+        padding: 40px 15px;
+    }
+    .flexBoxFunction p {
+        margin: 0 auto;
+    }
+    .flexBoxFunction img {
+        /* height: 100px; */
+    }
+    .flexBox {
+        margin: 0 auto;
+        justify-content: center;
+        gap: 30px;
+    }
+    .flex2 {
+        flex-wrap: wrap;
+    }
+    .imageContainer {
+        width: 100% !important;
+        height: 400px !important;
+    }
+    .priceRight h4 {
+        font-size: 30px;
+        flex-shrink: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .priceItem {
+        padding: 0 60px 0 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .flexFunction {
+        flex-wrap: wrap;
+    }
+    #support .flexFunction {
+        flex-wrap: wrap;
+    }
+    .priceLeft {
+        width: 170px;
+    }
+}
+@media (max-width: 550px) {
+    .function {
+        width: 47%;
+    }
+    .imageContainer {
+        height: 200px !important;
+    }
+    .priceRight h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .topStyle {
+        font-size: 14px;
+        padding: 15px 0 0 15px;
+    }
+
+    .circle-with-part {
+        height: 500px;
+    }
+
+    .headerTop {
+        height: 600px;
+    }
+
+    .Logo {
+        width: 50%;
+    }
+
+    .headerPhrase {
+        font-size: 13px;
+    }
+
+    .Main {
+        width: 50%;
+    }
+
+    .topContainer {
+        padding-top: 70px;
+    }
+
+    .pCenter {
+        font-size: 6px;
+        display: none;
+    }
+
+    .speech-bubble {
+        width: 120px;
+    }
+
+    .speech-bubble p {
+        font-size: 10px;
+    }
+
+    .sectionContainer {
+        padding: 60px 30px;
+    }
+
+    .sectionContainer h2 {
+        font-size: 32px;
+    }
+
+    .top2 {
+        width: 270px;
+    }
+
+    .top2 p {
+        font-size: 15px;
+    }
+
+    .top2Image {
+        width: 80%;
+    }
+
+    .subTitle {
+        font-size: 16px;
+        margin: 8px;
+    }
+    .description {
+        margin: 27px 0 30px 0;
+    }
+    .Container {
+        padding-top: 0;
+    }
+
+    .textContainer {
+    }
+
+    .customerImage {
+        min-width: 35px;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    .customerImage img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .customerP {
+        font-size: 8.6px;
+        bottom: 0.6px;
+    }
+
+    .text1 {
+    }
+
+    .text2 {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 10px 0 6px;
+    }
+
+    .text3 {
+        line-height: 20px;
+    }
+
+    .content {
+        height: unset;
+    }
+
+    .flexBox {
+        margin-bottom: 8px;
+    }
+
+    .content img {
+        /* width: 40px;
+        height: 70px; */
+    }
+
+    .background {
+        width: 65px;
+        padding: 3px 8px;
+    }
+
+    .background p {
+        font-size: 6px;
+    }
+
+    .description p {
+        font-size: 9px;
+    }
+
+    #support .flexBoxFunction {
+        padding: 20px 40px;
+    }
+
+    .flexBoxFunction {
+        width: 150px;
+    }
+
+    .flexBoxFunction img {
+
+    }
+    
+    .flexBoxFunctionImage {
+        padding-top: 10px;
+    }
+
+    .flexBoxFunction h3 {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .flexBoxFunction p {
+        line-height: 15px;
+        max-width: 270px;
+        line-height: 1.3;
+        font-size: 18px;
+    }
+
+    .flexBoxFunction {
+        width: 100%;
+        max-width: 400px;
+    }
+    .Center2 {
+        padding: 32px 4px;
+    }
+    .form {
+        width: 300px;
+    }
+
+    .formP1 {
+        font-size: 16px;
+        margin-bottom:4px;
+    }
+
+    .formP2 {
+        max-width: 200px;
+        font-size: 18px;
+        padding: 10px 40px;
+    }
+
+    .flex2 {
+        /* width: 350px;
+        height: 130px; */
+    }
+
+    .imageContainer {
+        width: 130px;
+        height: 130px;
+        flex-basis: unset;
+    }
+
+    .caseText {
+        width: 220px;
+        margin: 0;
+        padding: 22px;
+    }
+    
+    .caseText h4 {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    .caseText ul {
+        margin-left: 10px;
+    }
+
+    .caseText ul li {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+
+    .speechBubbleContainer {
+        top: -25px;
+        right: 0;
+    }
+
+    .speech-bubble2 {
+        font-size: 5px;
+        width: 80px;
+    }
+
+    .speech-bubble2::after {
+        border-width: 6px;
+    }
+
+    .priceItem {
+        height: 74px;
+        padding: 0 36px 0 30px;
+    }
+    .nami {
+        font-size: 22px;
+        right: -27px;
+    }
+    .priceLeft {
+        width: 145px;
+    }
+
+    .check {
+        font-size: 26px;
+    }
+
+    .priceLeft h4 {
+        font-size: 14px;
+    }
+
+    .priceLeft p {
+        font-size: 7px;
+    }
+
+    .priceRight h4 {
+        font-size: 19px;
+    }
+
+    .small {
+        font-size: 14px;
+    }
+
+    p.priceDescription {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .question {
+        border-radius: 16px 16px 0 0;
+    }
+
+    .question p {
+        font-size: 16px;
+    }
+
+    .qStart {
+        font-size: 20px;
+    }
+
+    .answer {
+        border-radius: 0 0 16px 16px;
+    }
+
+    .answer p {
+        font-size: 16px;
+    }
+
+    .aStart {
+        font-size: 20px;
+    }
+
+    p.aStartBottom {
+        font-size: 20px;
+    }
+
+    p.bottomP {
+        margin-left: 8px;
+    }
+
+    .footerBig {
+        font-size: 16px;
+    }
+
+    .bigTop {
+    }
+
+    .smallTop {
+        margin-top: 15px;
+        margin-bottom: 6px;
+    }
+
+    .footerSmall {
+        font-size: 15px;
+    }
+    #support .flexFunction {
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .topContainer {
+        padding-top: 30px;
+    }
+    .flexBoxFunction {
+        padding: 40px 30px;
+    }
+}
