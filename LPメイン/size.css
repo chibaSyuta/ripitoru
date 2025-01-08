@@ -85,7 +85,7 @@
     }
 
     .question {
-        max-width: 750px;
+        /* max-width: 750px; */
     }
 
     .question p {
@@ -93,7 +93,7 @@
     }
     
     .answer {
-        max-width: 750px;
+        /* max-width: 750px; */
     }
     
     .answer p {
@@ -114,7 +114,7 @@
         height: auto;
     }
     .function {
-        width: 30%;
+        /* width: 30%; */
     }
     .attention {
     }
@@ -139,7 +139,7 @@
     }
 
     .sectionContainer h2 {
-        font-size: 32px;
+        /* font-size: 32px; */
     }
 
     .top2 p {
@@ -177,8 +177,8 @@
     }
 
     .text2 {
-        font-size: 24px;
-        line-height: 30px;
+        /* font-size: 24px; */
+        /* line-height: 30px; */
         margin: 20px 0 16px;
     }
     .Image2 {
@@ -259,11 +259,11 @@
     }
 
     .question {
-        max-width: 650px;
+        /* max-width: 650px; */
     }
 
     .answer {
-        max-width: 650px;
+        /* max-width: 650px; */
     }
     .sectionContainer {
         padding: 70px 40px;
@@ -290,7 +290,7 @@
         flex-basis: unset;
     }
     .caseText h4 {
-        font-size: 22px;
+        /* font-size: 22px; */
         margin-bottom: 14px;
     }
     .caseText ul li {
@@ -304,7 +304,7 @@
         font-size: 17px;
     }
     .sectionContainer h2 {
-        font-size: 21px;
+        /* font-size: 21px; */
     }
     #support .flexFunction {
         gap: 20px;
@@ -313,7 +313,7 @@
 
 @media (max-width: 700px) {
     .text2 {
-        font-size: 21px;
+        font-size: 22px;
     }
     .text3 {
         /* font-size: 12px; */
@@ -356,7 +356,7 @@
         /* height: 100px; */
     }
     .flexBox {
-        margin: 0 auto;
+        margin: 0 auto 30px;
         justify-content: center;
         gap: 30px;
     }
@@ -389,10 +389,16 @@
     .priceLeft {
         width: 170px;
     }
+    .question {
+        padding: 14px 30px;
+    }
+    .answer {
+        padding: 14px 30px;
+    }
 }
 @media (max-width: 550px) {
     .function {
-        width: 47%;
+        /* width: 47%; */
     }
     .imageContainer {
         height: 200px !important;
@@ -407,7 +413,15 @@
         font-size: 14px;
         padding: 15px 0 0 15px;
     }
-
+    .question {
+        padding: 14px 22px;
+    }
+    .answer {
+        padding: 14px 22px;
+    }
+    .section2 {
+        padding: 60px 10px;
+    }
     .circle-with-part {
         height: 500px;
     }
@@ -448,9 +462,15 @@
     .sectionContainer {
         padding: 60px 30px;
     }
+    .section2 {
+        padding: 60px 10px;
+    }
+    .brand .textContainer {
+        padding: 32px 0px;
+    }
 
     .sectionContainer h2 {
-        font-size: 32px;
+        /* font-size: 32px; */
     }
 
     .top2 {
@@ -466,14 +486,14 @@
     }
 
     .subTitle {
-        font-size: 16px;
+        /* font-size: 16px; */
         margin: 8px;
     }
     .description {
         margin: 27px 0 30px 0;
     }
     .Container {
-        padding-top: 0;
+        /* padding-top: 0; */
     }
 
     .textContainer {
@@ -500,13 +520,14 @@
     }
 
     .text2 {
-        font-size: 18px;
-        line-height: 20px;
+        /* font-size: 18px;
+        line-height: 20px; */
         margin: 10px 0 6px;
     }
 
     .text3 {
         line-height: 20px;
+        font-weight: normal;
     }
 
     .content {
@@ -514,7 +535,6 @@
     }
 
     .flexBox {
-        margin-bottom: 8px;
     }
 
     .content img {
@@ -532,11 +552,14 @@
     }
 
     .description p {
-        font-size: 9px;
+        /* font-size: 9px; */
     }
 
     #support .flexBoxFunction {
-        padding: 20px 40px;
+        padding: 20px 40px 40px;
+    }
+    .supportImage {
+        margin: 20px;
     }
 
     .flexBoxFunction {
@@ -553,14 +576,14 @@
 
     .flexBoxFunction h3 {
         font-size: 24px;
-        margin: 10px 0;
+        margin: 15px 0 30px;
     }
 
     .flexBoxFunction p {
         line-height: 15px;
         max-width: 270px;
         line-height: 1.3;
-        font-size: 18px;
+        /* font-size: 18px; */
     }
 
     .flexBoxFunction {
@@ -571,17 +594,17 @@
         padding: 32px 4px;
     }
     .form {
-        width: 300px;
+        /* width: 300px; */
     }
 
     .formP1 {
         font-size: 16px;
-        margin-bottom:4px;
+        margin-bottom:23px;
     }
 
     .formP2 {
         max-width: 200px;
-        font-size: 18px;
+        font-size: 15px;
         padding: 10px 40px;
     }
 
@@ -603,7 +626,7 @@
     }
     
     .caseText h4 {
-        font-size: 14px;
+        /* font-size: 14px; */
         margin-bottom: 14px;
     }
 
@@ -617,13 +640,13 @@
     }
 
     .speechBubbleContainer {
-        top: -25px;
+        top: -32px;
         right: 0;
     }
 
     .speech-bubble2 {
-        font-size: 5px;
-        width: 80px;
+        font-size: 11px;
+        width: 150px;
     }
 
     .speech-bubble2::after {
@@ -651,7 +674,7 @@
     }
 
     .priceLeft p {
-        font-size: 7px;
+        font-size: 8px;
     }
 
     .priceRight h4 {
@@ -716,6 +739,15 @@
     }
     #support .flexFunction {
     }
+    .priceLeft p {
+        padding-left: 28px;
+    }
+    #support.sectionContainer h2 {
+        font-size: 28px;
+    }
+    .section3 {
+        padding: 60px 30px;
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -724,5 +756,8 @@
     }
     .flexBoxFunction {
         padding: 40px 30px;
+    }
+    .description h3 {
+        font-size: 17px;
     }
 }

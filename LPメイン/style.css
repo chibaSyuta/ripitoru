@@ -173,9 +173,10 @@ body {
 
 .subTitle {
     color: #ffffff;
-    font-size: 20px;
-    margin: 30px;
+    font-size: 24px;
+    margin: 4px auto 30px;
     text-align: center;
+    font-weight: bold;
 }
 
 .Container {
@@ -185,9 +186,10 @@ body {
     padding: 32px 21px;
     margin: 50px auto;
     width: 80%;
-    height: 450px;
+    /* height: 450px; */
     font-size: 20px;
     justify-content: space-around;
+    max-width: 860px;
 }
 .brand .textContainer {
     padding: 32px 21px;
@@ -198,6 +200,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 .Image.blur::after {
@@ -304,10 +307,11 @@ body {
 
 .flexBox {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 70px;
     width: 80%;
     /* max-width: 270px; */
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .content {
@@ -342,14 +346,21 @@ body {
 }
 
 .description h3 {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
 .description p {
     font-size: 12px;
 }
-
+.function_wrapper {
+    overflow-x: scroll;
+    width: 100%;
+}
+.items {
+    width: 840px;
+    margin: 0 auto;
+}
 .flexFunction {
     display: flex;
     justify-content: space-between;
@@ -358,6 +369,9 @@ body {
     gap: 2px;
     margin: 0 auto;
 }
+.flexFunction_item {
+    display: flex;
+}
 
 .function {
     background-color: #ffffff;
@@ -365,6 +379,7 @@ body {
     border-radius: 15px;
     text-align: center;
     width: 19%;
+    min-width: 160px;
     margin: 0 3px 5px 3px;
 }
 
@@ -402,7 +417,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #ffb200;
-    margin: 15px 0;
+    margin: 15px 0 30px;
     text-align: center;
 
 }
@@ -661,6 +676,8 @@ p.textBlack2 {
 .priceLeft p {
     color: #000000;
     font-size: 13px;
+    text-align: left;
+    padding-left: 40px;
 }
 
 .priceRight {
@@ -706,6 +723,7 @@ p.priceDescription {
 
 .question {
     max-width: 900px;
+    max-width: 600px;
     background-color: #f3f3f3;
     padding: 14px 46px;
     border-radius: 30px 30px 0 0;
@@ -728,6 +746,7 @@ p.priceDescription {
 
 .answer {
     max-width: 900px;
+    max-width: 600px;
     background-color: #f3f3f3;
     border-radius: 0 0 30px 30px;
     margin: 0 auto 20px;
