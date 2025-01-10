@@ -102,6 +102,9 @@
 }
 
 @media ( max-width: 900px ) {
+    .function_wrapper {
+        overflow-x: scroll;
+    }
     .flex2 {
         max-width: 650px;
         /* height: 230px; */
@@ -267,6 +270,9 @@
     }
     .sectionContainer {
         padding: 70px 40px;
+    }
+    .s2 {
+        padding: 30px 25px;
     }
     .priceRight h4 {
         font-size: 50px;
@@ -461,6 +467,9 @@
 
     .sectionContainer {
         padding: 60px 30px;
+    }
+    .s2 {
+        padding: 30px 25px;
     }
     .section2 {
         padding: 60px 10px;
